@@ -1,0 +1,50 @@
+footer {
+    line-height: 100px;
+    height: 10px;
+    
+    padding: 28px;
+    
+}
+
+footer ul {
+    float: right;
+    display: table;
+}
+
+footer ul li {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    image-rendering: 10px;
+
+}
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+  header{
+background-color:#03071e;
+padding: 30px;
+
+  }
+
+header .logo{
+    image-resolution: 40px;
+}
